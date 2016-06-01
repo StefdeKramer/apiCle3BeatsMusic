@@ -1,0 +1,22 @@
+body {
+    background-color: #00E517;
+}
+
+.top {
+    background-color: #004006;
+}
+
+.main {
+    background-color: #00E517;
+}
+
+.active a{color:darkred;text-decoration:none;}
+li a{color:black;background:darkgreen;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+
+#muziek{
+    text-align: center;
+}
+#playlist{
+    text-align: center;
+}

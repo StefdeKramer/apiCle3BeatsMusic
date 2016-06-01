@@ -1,0 +1,19 @@
+body {
+    background-color: #00CBE5;
+}
+
+.top {
+    background-color: #003840;
+}
+
+.main {
+    background-color: #00CBE5;
+}
+
+
+table#t01 tr:nth-child(even) {
+    background-color: #00A9BF;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #00717F;
+}

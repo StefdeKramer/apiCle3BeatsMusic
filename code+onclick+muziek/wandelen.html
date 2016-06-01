@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/wandelen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="topmenu">
+
+                <!--    klein menu waar mensen kunnen klikken hoe hard ze willen lopen-->
+                <!--    en daarbij inspirende muziek bijkrijgen.-->
+
+                <a href="index.html"><button class = "button1">Home</button></a>
+                <a href="wandelen.html"><button class = "button2">Wandelen</button></a>
+                <a href="joggen.html"><button class = "button4">Joggen</button></a>
+                <a href="hardlopen.html"><button class = "button5">Hardlopen</button></a>
+
+            </div>
+        </div>
+
+        <!--tekst over hoe ons project werk in oogpunt van de gebruiker-->
+        <div class="main">
+            <h1> De Nyxsol </h1>
+
+            <p>Tijdens het wandelen bladiebladiebla
+                Daarom hebben we liedjes voor je uitgezocht met de perfecte beats per minute om lekker te wandelen.
+                Enjoy!
+            </p>
+            <a href="led2.php?state=1">LEDREACT</a>
+
+            <h3>Now playing</h3>
+
+            <div id="muziek">
+                <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg" autoplay="autoplay">
+                    <source type="audio/mp3" src="Wandelen/Ed%20Sheeran%20-%20Give%20Me%20Love%20%5BOfficial%20Video%5D.mp3">
+                    Sorry, your browser does not support HTML5 audio.
+                </audio>
+                <ul id="playlist">
+                    <li class="active"><a href="Wandelen/Ed%20Sheeran%20-%20Give%20Me%20Love%20%5BOfficial%20Video%5D.mp3">Give me love - Ed Sheeran</a></li>
+                    <li><a href="Wandelen/Johnny%20Cash%20-%20Hurt%20HD%20720p.mp3">Hurt - Johnny Cash</a></li>
+                    <li><a href="Wandelen/Katy%20Perry%20-%20Roar%20(Official).mp3">Roar - Katy Perry</a></li>
+                    <li><a href="Wandelen/Marlena%20Shaw%20-%20California%20Soul.mp3">California Soul - Marlena Shaw</a></li>
+                    <li><a href="Wandelen/Michael%20Jackson%20-%20They%20Don't%20Care%20About%20Us.mp3">They don't care about us - Micheal Jackson</a></li>
+                    <li><a href="Wandelen/Moloko%20-%20The%20Time%20Is%20Now.mp3">The time is now -  Moloko</a></li>
+                    <li><a href="Wandelen/Owl%20City%20-%20Fireflies.mp3">Fireflies - Owl City</a></li>
+                    <li><a href="Wandelen/Pearl%20Jam%20-%20Black.mp3">Black - Pearl Jam</a></li>
+                    <li><a href="Wandelen/Sia%20-%20Elastic%20Heart%20feat.%20Shia%20LaBeouf%20&%20Maddie%20Ziegler%20(Official%20Video).mp3">Elastic - Sia</a></li>
+                </ul>
+            </div>
+
+    </div>
+
+<!---  <div class="footer">
+      <p> Made by Bas, Rik, Stef & Tessa </p>
+  </div> --->
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+</html>

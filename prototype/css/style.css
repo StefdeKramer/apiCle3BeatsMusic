@@ -1,0 +1,35 @@
+.lamp{
+     height:150px;
+     width:150px;
+     animation-duration: 800ms;
+     animation-name: blink;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     -webkit-animation:blink 800ms infinite;
+ }
+
+#lamp1{
+
+    height:150px;
+    width:150px;
+    background-color:darkgoldenrod;
+}
+
+
+@keyframes blink {
+    from {
+        background-color:green;
+    }
+    to {
+        background-color:red;
+    }
+
+}
+@-webkit-keyframes blink {
+    from {
+        background-color:green;
+    }
+    to {
+        background-color:red;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: #E5A601;
+}
+
+.top {
+    background-color: #402E00;
+}
+
+.main {
+    background-color: #E5A601;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+
+
+.active a{color:darkred;text-decoration:none;}
+li a{color:black;background:darkgoldenrod;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+
+#muziek{
+    text-align: center;
+}

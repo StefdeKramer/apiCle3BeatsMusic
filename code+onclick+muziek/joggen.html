@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/joggen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Joggen</title>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="topmenu">
+
+            <!--    klein menu waar mensen kunnen klikken hoe hard ze willen lopen-->
+            <!--    en daarbij inspirende muziek bijkrijgen.-->
+
+            <a href="index.html"><button class = "button1">Home</button></a>
+            <a href="wandelen.html"><button class = "button2">Wandelen</button></a>
+            <a href="joggen.html"><button class = "button4">Joggen</button></a>
+            <a href="hardlopen.html"><button class = "button5">Hardlopen</button></a>
+
+        </div>
+    </div>
+
+    <!--tekst over hoe ons project werk in oogpunt van de gebruiker-->
+    <div class="main">
+        <h1> De Nyxsol </h1>
+
+
+        <p>Tijdens het joggen bladiebladiebla
+        Daarom hebben we liedjes voor je uitgezocht met de perfecte beats per minute om lekker te joggen.
+        Enjoy!
+        </p>
+        <a href="led.php?state=2">LEDREACT</a>
+
+        <h3>Now playing</h3>
+        <div id="muziek">
+            <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg" autoplay="autoplay">
+                <source type="audio/mp3" src="joggen/Bruce%20Springsteen%20-%20Born%20To%20Run.mp3">
+                Sorry, your browser does not support HTML5 audio.
+            </audio>
+
+            <ul id="playlist">
+                <li class="active"><a href="joggen/Bruce%20Springsteen%20-%20Born%20To%20Run.mp3">Born to run - Bruce Springsteen</a></li>
+                <li><a href="joggen/Chemical%20Brothers%20-%20Galvanize.mp3">Galvanize - Chemical Brothers</a></li>
+                <li><a href="joggen/Coldplay%20Clocks%20lyrics.mp3">Clocks - Coldplay</a></li>
+                <li><a href="joggen/David%20Guetta%20-%20Titanium%20ft.%20Sia.mp3">Titanium - David Guetta</a></li>
+                <li><a href="joggen/Demi%20Lovato%20-%20Don't%20Forget.mp3">Don't forget - Demi Lovato</a></li>
+                <li><a href="joggen/Demi%20Lovato%20-%20Something%20That%20We're%20Not%20(Audio).mp3">Something that we're not - Demi Lovato</a></li>
+                <li><a href="joggen/Kings%20Of%20Leon%20-%20Sex%20On%20Fire.mp3">Sex on fire - Kings Leon</a></li>
+                <li><a href="joggen/Mafe%20&%20Def%20Major%20(Lefensmannen)%20-%20Traffic%20feat.%20Murda.mp3">Traffic - Mafe & Def Major</a></li>
+                <li><a href="joggen/The%20Black%20Eyed%20Peas%20-%20I%20Gotta%20Feeling.mp3">I gotta feeling - The Black Eyed Peas</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+<!---  <div class="footer">
+      <p> Made by Bas, Rik, Stef & Tessa </p>
+  </div> --->
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
